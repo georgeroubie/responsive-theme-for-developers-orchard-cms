@@ -1,0 +1,19 @@
+﻿@using(Script.Head()){
+    @* Load Facebook SDK for JavaScript *@
+    <script async>!function(e,n,t){var o,c=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");</script>
+    @* Load Twitter JavaScript *@
+    <script async>!function(t,e,r){var n,s=t.getElementsByTagName(e)[0],i=/^http:/.test(t.location)?"http":"https";t.getElementById(r)||(n=t.createElement(e),n.id=r,n.src=i+"://platform.twitter.com/widgets.js",s.parentNode.insertBefore(n,s))}(document,"script","twitter-wjs");</script>
+    @* Load LinkedIn JavaScript *@
+    <script src="//platform.linkedin.com/in.js" type="text/javascript" async> lang: en_US</script>
+}
+<div class="share-btn-container">
+    <div class="share-btn">
+        <div class="fb-share-button" data-href="@Request.Url.AbsoluteUri" data-layout="button_count"></div>
+    </div>
+    <div class="share-btn">
+        <a href="@Request.Url.AbsoluteUri" class="twitter-share-button">Tweet</a>
+    </div>
+    <div class="share-btn">
+        <script type="IN/Share" data-counter="right"></script>
+    </div>
+</div>

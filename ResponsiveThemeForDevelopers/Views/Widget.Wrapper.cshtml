@@ -1,0 +1,22 @@
+﻿@using Orchard.ContentManagement;
+@using Orchard.Widgets.Models;
+@{
+    var widgetPart = ((IContent)Model.ContentItem).As<WidgetPart>();
+    var tag = Tag(Model, "article");
+}
+@tag.StartElement
+    @if ( (widgetPart.RenderTitle && HasText(widgetPart.Title)) || Model.Header != null) {
+    <header>
+        @if ((widgetPart.RenderTitle && HasText(widgetPart.Title))) {
+            <h2 class="main-title">@widgetPart.Title</h2> @*I have changed the h1 to h2 for better SEO*@
+        }
+        @Display(Model.Header)
+    </header>
+    }
+    @Display(Model.Child)
+    @if(Model.Footer != null) {
+    <footer>
+        @Display(Model.Footer)
+    </footer>
+    }
+@tag.EndElement

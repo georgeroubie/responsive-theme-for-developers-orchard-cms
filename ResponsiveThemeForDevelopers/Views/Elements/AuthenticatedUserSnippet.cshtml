@@ -1,0 +1,6 @@
+@{
+    if (WorkContext.CurrentUser == null)
+    {
+        Response.Redirect("~/Users/Account/LogOn");
+    }
+}

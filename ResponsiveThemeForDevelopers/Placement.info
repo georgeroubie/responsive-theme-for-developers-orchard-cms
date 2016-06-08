@@ -1,0 +1,53 @@
+<Placement>
+
+  <Match ContentType="Page">
+    <Match DisplayType="Detail">
+      <Place Parts_Common_Metadata="-" />
+    </Match>
+  </Match>
+
+  <Match ContentType="Form">
+    <Match DisplayType="Detail">
+      <Place Parts_Common_Metadata="-" />
+    </Match>
+  </Match>
+
+  <Match ContentType="Blog">
+    <Match DisplayType="Detail">
+      <Place Parts_Common_Metadata="-" />
+    </Match>
+  </Match>
+
+  <Match ContentType="BlogPost">
+    <Match DisplayType="Detail">
+      <Place Parts_Title="Header:1;Wrapper=BlogPost_Title" />
+      <Place Parts_Common_Metadata="Header:2;Wrapper=BlogPost_CreatedDate" />
+      <Place Parts_Common_Body="Content:1" />
+      <Place Parts_Tags_ShowTags="Footer:1" />
+      <Place Parts_ListOfComments="Footer:2" />
+      <Place Parts_CommentForm="Footer:3" />
+    </Match>
+    <Match DisplayType="Summary">
+      <Place Parts_Title_Summary="Header:1;Wrapper=BlogPost_Title_Summary" />
+      <Place Parts_Common_Metadata_Summary="Header:2;Wrapper=BlogPost_CreatedDate" />
+      <Place Parts_Comments_Count="-" />
+      <Place Parts_Common_Body_Summary="Content:1;Wrapper=BlogPost_Body_Summary" />
+      <Place Parts_Tags_ShowTags="Footer:1" />
+    </Match>
+  </Match>
+
+  <!--Pacement Sample-->
+  <!--
+    <Match ContentType="ContentName">
+        <Match DisplayType="Detail">
+            
+        </Match>
+        <Match DisplayType="Summary">
+            
+        </Match>
+        <Match DisplayType="Layout">
+            
+        </Match>
+    </Match>
+  -->
+</Placement>

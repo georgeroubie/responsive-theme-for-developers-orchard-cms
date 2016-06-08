@@ -1,0 +1,9 @@
+﻿@{ 
+    var clock = WorkContext.Resolve<Orchard.Services.IClock>();
+}
+<div class="text-center site-footer">
+    Copyright &copy; @clock.UtcNow.Year - Powered by
+    <a href="http://www.coroflot.com/georgeroubie" target="_blank">
+        <strong>George Roubie</strong>
+    </a>
+</div>

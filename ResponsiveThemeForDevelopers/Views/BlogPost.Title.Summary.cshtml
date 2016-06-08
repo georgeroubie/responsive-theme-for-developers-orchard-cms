@@ -1,0 +1,5 @@
+@{
+    Orchard.ContentManagement.ContentItem contentItem = Model.ContentPart.ContentItem;
+    string title = Model.Title.ToString();
+}
+<h2>@Html.ItemDisplayLink(title, contentItem)</h2> @*I change the h1 to h2 for better SEO*@

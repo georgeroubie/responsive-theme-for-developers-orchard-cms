@@ -1,0 +1,19 @@
+﻿@{
+    // number of page number links to show, 0 means no link, 1 means only the current page, or more accepted.
+    Model.Quantity = 2;
+    
+    // text of the previous, next, gap, first and last pager
+    Model.PreviousText = "<";
+    Model.NextText = ">";
+    Model.FirstText = "<<";
+    Model.LastText = ">>";
+
+    // add class to the list of pagers
+    Model.Classes.Add("pagination");
+
+    Model.Metadata.Alternates.Clear();
+    Model.Metadata.Type = "Pager_Links";
+}
+<nav class="text-center">
+    @Display(Model)
+</nav>

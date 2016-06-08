@@ -1,0 +1,43 @@
+// Change the icon folder
+@icon-font-path: "../Content/Fonts/";
+@fa-font-path: "../Content/Fonts/";
+
+// Typography mixins
+.font-transform(@size, @color, @weight:normal, @align:left, @style: normal){
+    font-size: @size;
+    font-style: @style;
+    font-weight: @weight;
+    color: @color;
+    text-align: @align;
+}
+
+// Typography rules
+@font-family-sans-serif: 'Open Sans', sans-serif;
+
+//Main
+.main-title{
+    .font-transform(30px, @dark);
+}
+
+//Page
+.page{
+    h1{
+        .main-title;
+    }
+}
+
+//Blog
+.blog{
+    h1{
+        .main-title;
+    }
+}
+
+//Blog Post
+.blog-post{
+    h2{
+        a{
+            .font-transform(25px, @dark);
+        }
+    }
+}
