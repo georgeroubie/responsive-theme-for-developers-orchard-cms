@@ -3,7 +3,7 @@
 @using Orchard.UI.Resources;
 @{
     var theme = WorkContext.CurrentTheme;
-    //Favicons for multiple devices, created in http://www.favicon-generator.org/
+    //Favicons for multiple devices, created in http://www.favicon-generator.org
     RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, "/Content/Favicons/apple-icon-57x57.png")) }.AddAttribute("sizes", "57x57"));
     RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, "/Content/Favicons/apple-icon-60x60.png")) }.AddAttribute("sizes", "60x60"));
     RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, "/Content/Favicons/apple-icon-72x72.png")) }.AddAttribute("sizes", "72x72"));
