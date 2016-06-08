@@ -22,3 +22,8 @@ Responsive Theme for Developers optimized for Orchard 1.10.1
 + Disable button on form submit
 + Customized blogpost
 + Grunt for compiling Less and JavaScript compression.
+
+## Orchard Gallery
++ [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)
++ Version [1.1.0](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.0)
++ Version [1.0.0](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.0.0)
