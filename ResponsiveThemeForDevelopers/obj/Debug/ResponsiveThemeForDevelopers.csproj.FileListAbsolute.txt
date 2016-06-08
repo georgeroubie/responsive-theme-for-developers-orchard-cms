@@ -1,8 +1,0 @@
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\bin\ResponsiveThemeForDevelopers.dll.config
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\bin\ResponsiveThemeForDevelopers.dll
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\bin\ResponsiveThemeForDevelopers.pdb
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\bin\System.Web.Mvc.dll
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\bin\System.Web.Mvc.xml
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\obj\Debug\ResponsiveThemeForDevelopers.csprojResolveAssemblyReference.cache
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\obj\Debug\ResponsiveThemeForDevelopers.dll
-D:\A\Test\src\Orchard.Web\Themes\ResponsiveThemeForDevelopers\obj\Debug\ResponsiveThemeForDevelopers.pdb
