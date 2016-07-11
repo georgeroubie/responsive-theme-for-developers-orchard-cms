@@ -1,5 +1,5 @@
 @using Orchard.Layouts.Helpers
-<div class="embed-responsive embed-responsive-4by3">
+<div class="embed-responsive embed-responsive-@Html.SnippetField("Ratio").DisplayedAs(T("Ratio")).WithDescription(T("16by9 or 4by3"))">
     <iframe class="embed-responsive-item"
             src="@Html.SnippetField("URL").DisplayedAs(T("Iframe URL")).WithDescription(T("Enter here the Iframe url of your provider"))" 
             frameborder="0" allowfullscreen>
