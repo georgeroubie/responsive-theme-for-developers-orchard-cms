@@ -21,7 +21,7 @@ Responsive Theme for Developers optimized for Orchard 1.10.1
 + Page loader with font-awesome icon
 + Disable button on form submit
 + Customized blogpost
-+ Grunt for compiling Less and JavaScript compression.
++ Grunt for compiling Less, JavaScript compression, CSS Prefixing and auto-compiling.
 
 ## Orchard Gallery
 + [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)
