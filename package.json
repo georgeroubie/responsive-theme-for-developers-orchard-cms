@@ -5,6 +5,7 @@
   "main": "Layout.cshtml",
   "dependencies": {},
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.0.13",
     "gulp-concat": "^2.6.0",

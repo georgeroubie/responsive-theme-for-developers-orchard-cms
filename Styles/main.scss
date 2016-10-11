@@ -1,0 +1,21 @@
+﻿//Author: George Roubie - george.roubie@gmail.com
+
+// Boostrap
+$icon-font-path: "../Content/Fonts/";
+@import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+// FontAwesome
+$fa-font-path: "../Content/Fonts/"; 
+@import '../bower_components/components-font-awesome/scss/font-awesome';
+
+// Toastr
+@import '../bower_components/toastr/toastr.scss';
+
+// Reusable
+@import 'reusable/_variables.scss';
+@import 'reusable/_functions';
+@import 'reusable/_colors';
+@import 'reusable/_fonts';
+@import 'reusable/_buttons';
+@import 'reusable/_forms'; 
+@import 'reusable/_animations'; 
