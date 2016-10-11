@@ -71,6 +71,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Content\Favicons\android-icon-144x144.png" />
     <Content Include="Content\Favicons\android-icon-192x192.png" />
     <Content Include="Content\Favicons\android-icon-36x36.png" />
