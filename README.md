@@ -19,7 +19,7 @@
 + Page loader with font-awesome icon
 + Disable button on form submit
 + Customized blogpost
-+ Grunt for compiling Less, JavaScript compression, CSS Prefixing and auto-compiling.
++ Gulp for compiling Sass, JavaScript compression, CSS Prefixing and auto-compiling.
 
 ## Orchard Gallery
 + [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)
