@@ -7,8 +7,7 @@
     var columnOffsetCss = columnOffset > 0 ? "col-sm-offset-" + columnOffset : default(string);
     var tagBuilder = TagBuilderExtensions.AddCommonElementAttributes(new OrchardTagBuilder("div"), Model);
 
-    tagBuilder.AddCssClass("cell");
-    tagBuilder.AddCssClass(String.Concat("col-xs-12 col-sm-", columnSpan));
+    tagBuilder.AddCssClass(String.Concat("col-xs-12 col-md-", columnSpan));
     tagBuilder.AddCssClass(columnOffsetCss);
 }
 @if (!Model.Collapsed) {

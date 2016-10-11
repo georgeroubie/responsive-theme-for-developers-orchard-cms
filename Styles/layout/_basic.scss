@@ -11,9 +11,12 @@
     display: none;
 }
 
-// Page
-.page{
+// Content Item title
+.content-item{
     h1{
         @extend .main-title;
     }
+}
+.page-title {
+    @extend .main-title;
 }
