@@ -38,24 +38,22 @@ gulp.task('minify-css', function () {
 gulp.task('concat', function () {
     return gulp.src([
         './bower_components/jquery/dist/jquery.js',
-        './Scripts/jquery.cookiebar.js',
+        './Scripts/src/jquery.cookiebar.js',
         './bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
-        './Scripts/Lib.js',
+        './Scripts/src/Lib.js',
         './bower_components/toastr/toastr.js',
-        './Scripts/Custom.js'
+        './Scripts/src/Custom.js'
     ])
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('./Scripts/'));
+    .pipe(gulp.dest('./Scripts/dist/'));
 });
 
-gulp.task('compress', function (cb) {
+gulp.task('compress', function () {
     pump([
-          gulp.src('./Scripts/main.js'),
+          gulp.src('./Scripts/dist/main.js'),
           uglify(),
-          gulp.dest('./Scripts/')
-    ],
-      cb
-    );
+          gulp.dest('./Scripts/dist/')
+    ]);
 });
 
 // Copy fonts files from bower component to the content folder of the theme
@@ -67,10 +65,15 @@ gulp.task('fonts', function () {
     .pipe(gulp.dest('./Content/Fonts/'));
 });
 
-gulp.task('watch-css', function () {
-    gulp.watch('./Styles/**/*.scss', function () { runSequence('sass', 'prefix', 'minify-css') });
-});
-
-gulp.task('watch-js', function () {
-    gulp.watch('./Scripts/**/*.js', function () { runSequence('concat', 'compress') });
+gulp.task('watch', function () {
+    gulp.watch([
+        './Styles/*.scss',
+        './Styles/components/*.scss',
+        './Styles/layout/*.scss',
+        './Styles/reusable/*.scss',
+        './Styles/snippets/*.scss',
+        './Scripts/custom.js'
+    ], function () {
+        runSequence('sass', 'prefix', 'minify-css', 'concat', 'compress');
+    });
 });

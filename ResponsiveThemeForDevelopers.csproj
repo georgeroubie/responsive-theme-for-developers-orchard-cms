@@ -348,12 +348,11 @@
     <Content Include="Content\Favicons\ms-icon-70x70.png" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Gruntfile.js" />
     <Content Include="gulpfile.js" />
-    <Content Include="Scripts\Custom.js" />
-    <Content Include="Scripts\jquery.cookiebar.js" />
-    <Content Include="Scripts\Lib.js" />
-    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\dist\main.js" />
+    <Content Include="Scripts\src\custom.js" />
+    <Content Include="Scripts\src\jquery.cookiebar.js" />
+    <Content Include="Scripts\src\Lib.js" />
     <Content Include="Styles\main.css" />
     <Content Include="Theme.png" />
     <Content Include="Theme.txt" />
