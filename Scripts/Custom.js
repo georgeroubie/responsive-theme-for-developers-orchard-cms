@@ -33,7 +33,7 @@
         }
     });
 
-    //Toastr Messages
+    //Toastr Messages 
     var messageElement;
     $('.zone-messages .message').each(function () {
         messageElement = $(this);
