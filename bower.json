@@ -13,5 +13,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.6.3",
+    "bootstrap-sass": "^3.3.7"
+  }
 }
