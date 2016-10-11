@@ -1,0 +1,17 @@
+{
+  "name": "ResponsiveThemeForDevelopers",
+  "description": "Responsive Orchard CMS theme for developers",
+  "main": "Layout.cshtml",
+  "authors": [
+    "George Roubie"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/georgeroubie/responsive-theme-for-developers-orchard-cms",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
