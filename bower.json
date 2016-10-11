@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "components-font-awesome": "^4.6.3",
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "toastr": "^2.1.3"
   }
 }
