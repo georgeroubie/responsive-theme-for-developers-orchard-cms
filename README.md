@@ -1,6 +1,4 @@
-# Responsive Theme For Developers
-
-Responsive Theme for Developers optimized for Orchard 1.10.1
+# Responsive Theme For Developers - Orchard CMS
 
 ## Features
 + Responsive zones with Bootstrap 3 Grid
