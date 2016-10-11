@@ -1,1 +1,60 @@
 // Forms and form inputs styling
+
+span.field-validation-error {
+    color: #ff0000;
+}
+div.validation-summary-errors {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.form-field-element-text-field {
+    @extend .form-group;
+    input {
+        @extend .form-control;
+    }
+}
+.form-field-element-email-field {
+    @extend .form-group;
+    input {
+        @extend .form-control;
+    }
+}
+.form-field-element-url-field {
+    @extend .form-group;
+    input {
+        @extend .form-control;
+    }
+}
+.form-field-element-text-area {
+    @extend .form-group;
+    textarea {
+        @extend .form-control;
+        height: auto !important;
+    }
+}
+.form-field-element-button {
+    @extend .form-group;
+    button {
+        @extend .btn;
+    }
+}
+.form-field-element-enumeration {
+    @extend .form-group;
+    select {
+        @extend .form-control;
+    }
+    ol {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+}

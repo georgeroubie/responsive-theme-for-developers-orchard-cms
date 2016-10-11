@@ -1,0 +1,48 @@
+﻿// Blog post list 
+ul.blog-posts {
+    list-style: none;
+    padding-left: 0px;
+}
+
+// Blog Post 
+.blog-post {
+    h2 {
+        a {
+            @include font-style(25px, $dark);
+        }
+    }
+}
+.comment-form {
+    .who {
+        ol {
+            list-style: none;
+            padding-left: 0px;
+            li {
+                @extend .form-group;
+                input {
+                    @extend .form-control;
+                }
+            }
+        }
+    }
+    .what {
+        ol {
+            list-style: none;
+            padding-left: 0px;
+            textarea {
+                @extend .form-control;
+                height: auto !important;
+            }
+        }
+    }
+    button {
+        @extend .btn;
+    }
+}
+
+//Blog
+.blog {
+    h1 {
+        @extend .main-title;
+    }
+}

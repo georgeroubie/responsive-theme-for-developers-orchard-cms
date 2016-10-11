@@ -1,0 +1,436 @@
+﻿// Header
+#layout-header {
+    @extend .container;
+}
+
+// Navigation
+#layout-navigation {
+    @extend .container;
+}
+
+// Featured
+#layout-featured {
+    @extend .container;
+}
+
+// BeforeMain
+#layout-before-main {
+    @extend .container;
+}
+
+// Main
+#layout-main-container {
+    @extend .container;
+}
+#layout-main {
+    @extend .row;
+}
+// when we haven't any asides
+#layout-content {
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(12);
+    @include make-lg-column(12);
+}
+// when we have only the AsideFirst
+.aside-1 {
+    #aside-first {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(3);
+        @include make-lg-column(4);
+    }
+    #layout-content {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(9);
+        @include make-lg-column(8);
+    }
+}
+// when we have only the AsideSecond
+.aside-2 {
+    #aside-second {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(3);
+        @include make-lg-column(4);
+    }
+    #layout-content {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(9);
+        @include make-lg-column(8);
+    }
+}
+// when we have both the asides
+.aside-12 {
+    #aside-first {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(3);
+        @include make-lg-column(2);
+    }
+    #aside-second {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(3);
+        @include make-lg-column(2);
+    }
+    #layout-content {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(8);
+    }
+}
+
+// AfterMain
+#layout-after-main {
+    @extend .container;
+}
+
+// Tripel
+#layout-tripel-container{
+    @extend .container;
+}
+#layout-tripel {
+    @extend .row;
+}
+// when we have only the TripelFirst
+.tripel-1 {
+    #tripel-first {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(12);
+        @include make-lg-column(12);        
+    }
+}
+// when we have only the TripelSecond
+.tripel-2 {
+    #tripel-second {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(12);
+        @include make-lg-column(12);          
+    }
+}
+// when we have only the TripelThird
+.tripel-3 {
+    #tripel-third {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(12);
+        @include make-lg-column(12);        
+    }
+}
+// when we have the TripelFirst and the TripelSecond
+.tripel-12 {
+    #tripel-first {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(6);         
+    }
+    #tripel-second {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(6);         
+    }
+}
+// when we have the TripelFirst and the TripelThird
+.tripel-13 {
+    #tripel-first {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(6);        
+    }
+    #tripel-third {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(6);          
+    }
+}
+// when we have the TripelSecond and the TripelThird
+.tripel-23 {
+    #tripel-second {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(6);           
+    }
+    #tripel-third {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(6);           
+    }
+}
+// when we have all the tripels
+.tripel-123 {
+    #tripel-first {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(4);          
+    }
+    #tripel-second {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(6);
+        @include make-lg-column(4);          
+    }
+    #tripel-third {
+        @include make-xs-column(12);
+        @include make-sm-column(12);
+        @include make-md-column(12);
+        @include make-lg-column(4);          
+    }
+}
+
+// Footer
+#layout-footer {
+    @extend .container;
+}
+#footer-quad {
+    @extend .row;
+}
+// when we have only the QuadFirst
+.split-1 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(12);
+       @include make-lg-column(12); 
+    }
+}
+// when we have only the QuadSecond
+.split-2 {
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(12);
+       @include make-lg-column(12); 
+    }
+}
+// when we have only the QuadThird
+.split-3 {
+    #footer-quad-third {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(12);
+       @include make-lg-column(12); 
+    }
+}
+// when we have only the QuadFourth
+.split-4 {
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(12);
+       @include make-lg-column(12); 
+    }
+}
+// when we have the QuadFirst and the QuadSecond
+.split-12 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+}
+// when we have the QuadFirst and the QuadThird
+.split-13 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+    #footer-quad-third {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+}
+// when we have the QuadFirst and the QuadFourth
+.split-14 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+}
+// when we have the QuadSecond and the QuadThird
+.split-23 {
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+    #footer-quad-third {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+}
+// when we have the QuadSecond and the QuadFourth
+.split-24 {
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+}
+// when we have the QuadThird and the QuadFourth
+.split-34 {
+    #footer-quad-third {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(6);
+       @include make-lg-column(6); 
+    }
+}
+// when we have the QuadFirst, the QuadSecond and the QuadThird
+.split-123 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-third {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+}
+// when we have the QuadFirst, the QuadSecond and the QuadFourth
+.split-124 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+}
+// when we have the QuadFirst, the QuadThird and the QuadFourth
+.split-134 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-third {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+}
+// when we have the QuadSecond, the QuadThird and the QuadFourth
+.split-234 {
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-third {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(12);
+       @include make-md-column(4);
+       @include make-lg-column(4); 
+    }
+}
+// when we have all the Quads
+.split-1234 {
+    #footer-quad-first {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(3);
+       @include make-lg-column(3); 
+    }
+    #footer-quad-second {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(3);
+       @include make-lg-column(3); 
+    }
+    #footer-quad-third { 
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(3);
+       @include make-lg-column(3); 
+    }
+    #footer-quad-fourth {
+       @include make-xs-column(12);
+       @include make-sm-column(6);
+       @include make-md-column(3);
+       @include make-lg-column(3);
+    }
+}

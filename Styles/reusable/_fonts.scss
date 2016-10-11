@@ -6,6 +6,6 @@
 //     font-size: 25px;
 // }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+.main-title {
+    @include font-style(30px, $dark);
 }

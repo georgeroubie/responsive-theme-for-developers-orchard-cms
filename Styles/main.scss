@@ -1,6 +1,7 @@
 ﻿//Author: George Roubie - george.roubie@gmail.com
 
 // Boostrap
+$font-family-sans-serif: 'Open Sans', sans-serif;
 $icon-font-path: "../Content/Fonts/";
 @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap';
 
@@ -19,3 +20,18 @@ $fa-font-path: "../Content/Fonts/";
 @import 'reusable/_buttons';
 @import 'reusable/_forms'; 
 @import 'reusable/_animations'; 
+
+// General
+@import 'layout/_basic';
+@import 'layout/_grid';
+@import 'layout/_footer';
+
+// Components
+@import 'components/_cookie-bar'; 
+@import 'components/_loader';
+@import 'components/_menu';
+@import 'components/_pager';
+@import 'components/_blog';
+
+// Snippets
+@import 'snippets/_share-btn.scss';

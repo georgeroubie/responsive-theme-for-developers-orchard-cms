@@ -1,0 +1,35 @@
+﻿// Main menu widget
+article.widget-menu-widget {
+    > .navbar {
+        border-radius: 0;
+        @media (max-width: 767px) { 
+	        &{
+                margin-left: -15px;
+                margin-right: -15px;
+	        }
+        }
+        .search-form {
+            button {
+                @media (max-width: 767px) { 
+	                &{
+                        margin-top: 5px;
+                        width: 100%;
+	                }
+                }
+            }
+        }
+    }
+}
+
+// Two level menu
+ul.dropdown-menu > li.dropdown-submenu > ul.dropdown-menu {
+    position: relative;
+    border: 0px;
+    box-shadow: none;
+    padding-left: 10px;
+}
+.nav .open > a, 
+.nav .open > a:focus, 
+.nav .open > a:hover {
+    color: #333;
+}

@@ -1,0 +1,19 @@
+﻿body, html {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: scrollbar;
+}
+
+// Message appears as a Toastr notification
+.zone-messages .message {
+    display: none;
+}
+
+// Page
+.page{
+    h1{
+        @extend .main-title;
+    }
+}

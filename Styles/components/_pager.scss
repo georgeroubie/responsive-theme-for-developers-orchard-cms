@@ -1,0 +1,17 @@
+﻿.pager.pagination li > a, 
+.pager.pagination li > span {
+    border-radius: 0px;
+}
+.pagination > li > span.current-pager {
+    cursor: default;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    cursor: default;
+}
+.pagination > li > span.gap-pager:hover {
+    cursor: default;
+    &:hover {
+        background-color: #fff;
+    } 
+}

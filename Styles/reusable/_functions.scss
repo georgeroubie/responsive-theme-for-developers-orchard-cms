@@ -11,3 +11,17 @@
 // .pad-zero {
 //      padding: 0 !important;
 // }
+
+@mixin font-style($size, $color, $weight: 400, $style: normal, $align: left) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    font-style: $style;
+    text-align: $align;
+}
+
+// Images
+.center-image {
+    display: block;
+    margin: 0 auto;
+}

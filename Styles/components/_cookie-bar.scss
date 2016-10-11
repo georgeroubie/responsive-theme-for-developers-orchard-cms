@@ -1,0 +1,51 @@
+﻿#cookie-bar {
+    background: #222222; 
+    height: auto; 
+    line-height: 24px; 
+    color: #eeeeee; 
+    text-align: center; 
+    padding: 5px 0;
+    &.fixed {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        width: 100%;
+        &.bottom {
+            bottom: 0; 
+            top: auto;
+        }
+    }
+    p {
+        margin: 0; 
+        padding: 0;
+    }
+    a {
+        color: #ffffff; 
+        display: inline-block; 
+        border-radius: 3px; 
+        text-decoration: none; 
+        padding: 0 6px; 
+        margin-left: 8px;
+        &:hover {
+            color: #000000;
+        }
+    }
+    .cb-enable {
+        background: #000000;
+        &:hover {
+            background: #ffffff;
+        }
+    }
+    .cb-disable {
+        background: #000000;
+        &:hover {
+           background: #ffffff; 
+        }
+    }
+    .cb-policy {
+        background: #000000;
+        &:hover {
+            background: #ffffff;
+        }
+    }
+}
