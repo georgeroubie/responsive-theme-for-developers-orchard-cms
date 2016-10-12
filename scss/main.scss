@@ -2,13 +2,13 @@
 
 // Boostrap
 $font-family-sans-serif: 'Open Sans', sans-serif;
-@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+@import '../lib/css/bootstrap/_bootstrap';
 
 // FontAwesome
-@import '../node_modules/font-awesome/scss/font-awesome'; 
+@import '../lib/css/fontawesome/font-awesome';
 
 // Toastr
-@import '../node_modules/toastr/toastr.scss';
+@import '../lib/css/toastr/toastr.scss';
 
 // Reusable
 @import 'reusable/_variables.scss';

@@ -3,9 +3,9 @@
 
 gulp.task('concat', function () {
     return gulp.src([
-        './node_modules/jquery/dist/jquery.js',
-        './node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
-        './node_modules/toastr/toastr.js',
+        './lib/js/jquery.js',
+        './lib/js/bootstrap.js',
+        './lib/js/toastr.js',
         './js/lib/jquery.cookiebar.js',
         './js/lib/Lib.js',
         './js/src/custom.js'
