@@ -101,16 +101,15 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="gulpfile.js" />
-    <Content Include="Scripts\dist\main.js" />
-    <Content Include="Scripts\src\custom.js" />
-    <Content Include="Scripts\src\jquery.cookiebar.js" />
-    <Content Include="Scripts\src\Lib.js" />
+    <Content Include="js\src\custom.js" />
+    <Content Include="js\lib\jquery.cookiebar.js" />
+    <Content Include="js\lib\Lib.js" />
     <Content Include="css\main.css" />
     <Content Include="Theme.png" />
     <Content Include="Theme.txt" />
     <Content Include="ThemeZonePreview.png" />
     <Content Include="Web.config" />
-    <Content Include="Scripts\Web.config" />
+    <Content Include="js\Web.config" />
     <Content Include="css\Web.config" />
     <Content Include="img\Web.config" />
   </ItemGroup>
@@ -221,6 +220,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\dist\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
