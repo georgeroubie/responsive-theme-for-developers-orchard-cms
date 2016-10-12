@@ -73,8 +73,6 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="css\main.css" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="img\favicons\android-icon-144x144.png" />
     <Content Include="img\favicons\android-icon-192x192.png" />
     <Content Include="img\favicons\android-icon-36x36.png" />
@@ -106,9 +104,6 @@
     <Content Include="js\src\custom.js" />
     <Content Include="js\lib\jquery.cookiebar.js" />
     <Content Include="js\lib\Lib.js" />
-    <Content Include="lib\js\bootstrap.js" />
-    <Content Include="lib\js\jquery.js" />
-    <Content Include="lib\js\toastr.js" />
     <Content Include="tasks\task.concat.js" />
     <Content Include="tasks\task.compress.js" />
     <Content Include="tasks\task.build.js" />
@@ -226,109 +221,7 @@
     <Content Include="tasks\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_alerts.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_background-variant.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_border-radius.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_buttons.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_center-block.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_clearfix.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_forms.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_gradients.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_grid-framework.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_grid.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_hide-text.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_image.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_labels.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_list-group.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_nav-divider.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_nav-vertical-align.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_opacity.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_pagination.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_panels.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_progress-bar.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_reset-filter.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_reset-text.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_resize.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_responsive-visibility.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_size.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_tab-focus.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_table-row.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_text-emphasis.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_text-overflow.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\mixins\_vendor-prefixes.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_alerts.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_badges.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_breadcrumbs.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_button-groups.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_buttons.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_carousel.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_close.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_code.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_component-animations.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_dropdowns.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_forms.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_glyphicons.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_grid.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_input-groups.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_jumbotron.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_labels.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_list-group.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_media.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_mixins.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_modals.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_navbar.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_navs.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_normalize.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_pager.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_pagination.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_panels.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_popovers.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_print.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_progress-bars.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_responsive-embed.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_responsive-utilities.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_scaffolding.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_tables.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_theme.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_thumbnails.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_tooltip.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_type.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_utilities.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_variables.scss" />
-    <Content Include="lib\css\bootstrap\bootstrap\_wells.scss" />
-    <Content Include="lib\css\bootstrap\_bootstrap-compass.scss" />
-    <Content Include="lib\css\bootstrap\_bootstrap-mincer.scss" />
-    <Content Include="lib\css\bootstrap\_bootstrap-sprockets.scss" />
-    <Content Include="lib\css\bootstrap\_bootstrap.scss" />
-    <Content Include="lib\css\fontawesome\font-awesome.scss" />
-    <Content Include="lib\css\fontawesome\_animated.scss" />
-    <Content Include="lib\css\fontawesome\_bordered-pulled.scss" />
-    <Content Include="lib\css\fontawesome\_core.scss" />
-    <Content Include="lib\css\fontawesome\_fixed-width.scss" />
-    <Content Include="lib\css\fontawesome\_icons.scss" />
-    <Content Include="lib\css\fontawesome\_larger.scss" />
-    <Content Include="lib\css\fontawesome\_list.scss" />
-    <Content Include="lib\css\fontawesome\_mixins.scss" />
-    <Content Include="lib\css\fontawesome\_path.scss" />
-    <Content Include="lib\css\fontawesome\_rotated-flipped.scss" />
-    <Content Include="lib\css\fontawesome\_screen-reader.scss" />
-    <Content Include="lib\css\fontawesome\_stacked.scss" />
-    <Content Include="lib\css\fontawesome\_variables.scss" />
-    <Content Include="lib\css\toastr\toastr.scss" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="lib\Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
