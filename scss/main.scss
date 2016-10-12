@@ -2,11 +2,9 @@
 
 // Boostrap
 $font-family-sans-serif: 'Open Sans', sans-serif;
-$icon-font-path: "../Content/Fonts/";
 @import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
 
 // FontAwesome
-$fa-font-path: "../Content/Fonts/"; 
 @import '../node_modules/font-awesome/scss/font-awesome'; 
 
 // Toastr

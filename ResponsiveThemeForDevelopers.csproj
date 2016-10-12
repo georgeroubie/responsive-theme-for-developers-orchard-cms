@@ -72,34 +72,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="Content\Favicons\android-icon-144x144.png" />
-    <Content Include="Content\Favicons\android-icon-192x192.png" />
-    <Content Include="Content\Favicons\android-icon-36x36.png" />
-    <Content Include="Content\Favicons\android-icon-48x48.png" />
-    <Content Include="Content\Favicons\android-icon-72x72.png" />
-    <Content Include="Content\Favicons\android-icon-96x96.png" />
-    <Content Include="Content\Favicons\apple-icon-114x114.png" />
-    <Content Include="Content\Favicons\apple-icon-120x120.png" />
-    <Content Include="Content\Favicons\apple-icon-144x144.png" />
-    <Content Include="Content\Favicons\apple-icon-152x152.png" />
-    <Content Include="Content\Favicons\apple-icon-180x180.png" />
-    <Content Include="Content\Favicons\apple-icon-57x57.png" />
-    <Content Include="Content\Favicons\apple-icon-60x60.png" />
-    <Content Include="Content\Favicons\apple-icon-72x72.png" />
-    <Content Include="Content\Favicons\apple-icon-76x76.png" />
-    <Content Include="Content\Favicons\apple-icon-precomposed.png" />
-    <Content Include="Content\Favicons\apple-icon.png" />
-    <Content Include="Content\Favicons\browserconfig.xml" />
-    <Content Include="Content\Favicons\favicon-16x16.png" />
-    <Content Include="Content\Favicons\favicon-32x32.png" />
-    <Content Include="Content\Favicons\favicon-96x96.png" />
-    <Content Include="Content\Favicons\favicon.ico" />
-    <Content Include="Content\Favicons\ms-icon-144x144.png" />
-    <Content Include="Content\Favicons\ms-icon-150x150.png" />
-    <Content Include="Content\Favicons\ms-icon-310x310.png" />
-    <Content Include="Content\Favicons\ms-icon-70x70.png" />
-    <Content Include="Content\Fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="img\favicons\android-icon-144x144.png" />
+    <Content Include="img\favicons\android-icon-192x192.png" />
+    <Content Include="img\favicons\android-icon-36x36.png" />
+    <Content Include="img\favicons\android-icon-48x48.png" />
+    <Content Include="img\favicons\android-icon-72x72.png" />
+    <Content Include="img\favicons\android-icon-96x96.png" />
+    <Content Include="img\favicons\apple-icon-114x114.png" />
+    <Content Include="img\favicons\apple-icon-120x120.png" />
+    <Content Include="img\favicons\apple-icon-144x144.png" />
+    <Content Include="img\favicons\apple-icon-152x152.png" />
+    <Content Include="img\favicons\apple-icon-180x180.png" />
+    <Content Include="img\favicons\apple-icon-57x57.png" />
+    <Content Include="img\favicons\apple-icon-60x60.png" />
+    <Content Include="img\favicons\apple-icon-72x72.png" />
+    <Content Include="img\favicons\apple-icon-76x76.png" />
+    <Content Include="img\favicons\apple-icon-precomposed.png" />
+    <Content Include="img\favicons\apple-icon.png" />
+    <Content Include="img\favicons\browserconfig.xml" />
+    <Content Include="img\favicons\favicon-16x16.png" />
+    <Content Include="img\favicons\favicon-32x32.png" />
+    <Content Include="img\favicons\favicon-96x96.png" />
+    <Content Include="img\favicons\favicon.ico" />
+    <Content Include="img\favicons\ms-icon-144x144.png" />
+    <Content Include="img\favicons\ms-icon-150x150.png" />
+    <Content Include="img\favicons\ms-icon-310x310.png" />
+    <Content Include="img\favicons\ms-icon-70x70.png" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="gulpfile.js" />
     <Content Include="Scripts\dist\main.js" />
     <Content Include="Scripts\src\custom.js" />
@@ -112,7 +112,7 @@
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
     <Content Include="css\Web.config" />
-    <Content Include="Content\Web.config" />
+    <Content Include="img\Web.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">
@@ -127,7 +127,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Favicons\manifest.json" />
+    <Content Include="img\favicons\manifest.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\BlogPost.Body.Summary.cshtml" />
@@ -210,14 +210,17 @@
     <Content Include="scss\layout\_grid.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Fonts\fontawesome-webfont.eot" />
-    <Content Include="Content\Fonts\fontawesome-webfont.ttf" />
-    <Content Include="Content\Fonts\fontawesome-webfont.woff" />
-    <Content Include="Content\Fonts\fontawesome-webfont.woff2" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\Fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -62,7 +62,7 @@ gulp.task('fonts', function () {
         './node_modules/font-awesome/fonts/fontawesome-webfont.*',
         './node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.*'
     ])
-    .pipe(gulp.dest('./Content/Fonts/'));
+    .pipe(gulp.dest('./fonts/'));
 });
 
 gulp.task('watch', function () {
