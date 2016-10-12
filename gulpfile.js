@@ -12,26 +12,26 @@ var pump = require('pump');
 
 
 gulp.task('sass', function () {
-    return gulp.src('./Styles/main.scss')
+    return gulp.src('./scss/main.scss')
       .pipe(sass().on('error', sass.logError))
-      .pipe(gulp.dest('./Styles'));
+      .pipe(gulp.dest('./css'));
 });
 
 gulp.task('prefix', function () {
-    return gulp.src('./Styles/main.css')
+    return gulp.src('./css/main.css')
         .pipe(autoprefixer({
             browsers: ['Chrome 50', 'Firefox 12', 'Explorer 8', 'Explorer 9', 'Explorer 10', 'Explorer 11', 'Edge 12', 'iOS 6', 'Opera 35', 'Safari 5', 'ExplorerMobile 11']
         }))
-        .pipe(gulp.dest('./Styles'))
+        .pipe(gulp.dest('./css'))
 });
 
 gulp.task('minify-css', function () {
-    return gulp.src('./Styles/main.css')
+    return gulp.src('./css/main.css')
       .pipe(cleanCSS({ debug: true }, function (details) {
           console.log(details.name + ': ' + details.stats.originalSize);
           console.log(details.name + ': ' + details.stats.minifiedSize);
       }))
-      .pipe(gulp.dest('./Styles'));
+      .pipe(gulp.dest('./css'));
 });
 
 
@@ -67,11 +67,8 @@ gulp.task('fonts', function () {
 
 gulp.task('watch', function () {
     gulp.watch([
-        './Styles/*.scss',
-        './Styles/components/*.scss',
-        './Styles/layout/*.scss',
-        './Styles/reusable/*.scss',
-        './Styles/snippets/*.scss',
+        './scss/*.scss',
+        './scss/*/*.scss',
         './Scripts/src/custom.js'
     ], function () {
         runSequence('sass', 'prefix', 'minify-css', 'concat', 'compress');

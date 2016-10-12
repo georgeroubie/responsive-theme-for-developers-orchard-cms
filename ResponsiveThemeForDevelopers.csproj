@@ -105,13 +105,13 @@
     <Content Include="Scripts\src\custom.js" />
     <Content Include="Scripts\src\jquery.cookiebar.js" />
     <Content Include="Scripts\src\Lib.js" />
-    <Content Include="Styles\main.css" />
+    <Content Include="css\main.css" />
     <Content Include="Theme.png" />
     <Content Include="Theme.txt" />
     <Content Include="ThemeZonePreview.png" />
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
-    <Content Include="Styles\Web.config" />
+    <Content Include="css\Web.config" />
     <Content Include="Content\Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -168,44 +168,46 @@
     <Content Include="package.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\main.scss" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Content Include="Styles\reusable\_animations.scss" />
-    <Content Include="Styles\reusable\_buttons.scss" />
-    <Content Include="Styles\reusable\_colors.scss" />
-    <Content Include="Styles\reusable\_fonts.scss" />
-    <Content Include="Styles\reusable\_forms.scss" />
-    <Content Include="Styles\reusable\_functions.scss" />
-    <Content Include="Styles\reusable\_variables.scss" />
+    <Content Include="scss\main.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\components\_cookie-bar.scss" />
+    <Content Include="scss\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\components\_menu.scss" />
+    <Content Include="scss\reusable\_animations.scss" />
+    <Content Include="scss\reusable\_buttons.scss" />
+    <Content Include="scss\reusable\_colors.scss" />
+    <Content Include="scss\reusable\_fonts.scss" />
+    <Content Include="scss\reusable\_forms.scss" />
+    <Content Include="scss\reusable\_functions.scss" />
+    <Content Include="scss\reusable\_variables.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\components\_blog.scss" />
+    <Content Include="scss\components\_cookie-bar.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\components\_loader.scss" />
+    <Content Include="scss\components\_menu.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\components\_pager.scss" />
+    <Content Include="scss\components\_blog.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\snippets\_share-btn.scss" />
+    <Content Include="scss\components\_loader.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\layout\_footer.scss" />
+    <Content Include="scss\components\_pager.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\layout\_basic.scss" />
+    <Content Include="scss\snippets\_share-btn.scss" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\layout\_grid.scss" />
+    <Content Include="scss\layout\_footer.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\layout\_basic.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="scss\layout\_grid.scss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Fonts\fontawesome-webfont.eot" />
