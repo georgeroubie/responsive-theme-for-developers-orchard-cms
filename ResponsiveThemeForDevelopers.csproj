@@ -72,6 +72,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="css\main.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="img\favicons\android-icon-144x144.png" />
     <Content Include="img\favicons\android-icon-192x192.png" />
     <Content Include="img\favicons\android-icon-36x36.png" />
@@ -98,14 +101,17 @@
     <Content Include="img\favicons\ms-icon-150x150.png" />
     <Content Include="img\favicons\ms-icon-310x310.png" />
     <Content Include="img\favicons\ms-icon-70x70.png" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="gulpfile.js" />
-    <Content Include="js\dist\main.js" />
     <Content Include="js\src\custom.js" />
     <Content Include="js\lib\jquery.cookiebar.js" />
     <Content Include="js\lib\Lib.js" />
-    <Content Include="css\main.css" />
+    <Content Include="tasks\task.concat.js" />
+    <Content Include="tasks\task.compress.js" />
+    <Content Include="tasks\task.fonts.js" />
+    <Content Include="tasks\task.minify-css.js" />
+    <Content Include="tasks\task.prefix.js" />
+    <Content Include="tasks\task.sass.js" />
+    <Content Include="tasks\task.watch.js" />
     <Content Include="Theme.png" />
     <Content Include="Theme.txt" />
     <Content Include="ThemeZonePreview.png" />
@@ -213,6 +219,9 @@
     <Content Include="fonts\Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="tasks\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
@@ -222,7 +231,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="js\dist\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

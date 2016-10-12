@@ -8,7 +8,7 @@
         'progressBar': true,
         'positionClass': 'toast-bottom-right'
     };
-
+    
     //Disable Submit Button on Submit
     $('form').submit(function () {
         if ($(this).valid()) {
