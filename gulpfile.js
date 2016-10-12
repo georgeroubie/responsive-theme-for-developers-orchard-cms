@@ -37,12 +37,12 @@ gulp.task('minify-css', function () {
 
 gulp.task('concat', function () {
     return gulp.src([
-        './bower_components/jquery/dist/jquery.js',
+        './node_modules/jquery/dist/jquery.js',
         './Scripts/src/jquery.cookiebar.js',
-        './bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+        './node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
         './Scripts/src/Lib.js',
-        './bower_components/toastr/toastr.js',
-        './Scripts/src/Custom.js'
+        './node_modules/toastr/toastr.js',
+        './Scripts/src/custom.js'
     ])
     .pipe(concat('main.js'))
     .pipe(gulp.dest('./Scripts/dist/'));
@@ -56,11 +56,11 @@ gulp.task('compress', function () {
     ]);
 });
 
-// Copy fonts files from bower component to the content folder of the theme
+// Copy fonts files from node_modules to the content folder of the theme
 gulp.task('fonts', function () {
     return gulp.src([
-        './bower_components/components-font-awesome/fonts/fontawesome-webfont.*',
-        './bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.*'
+        './node_modules/font-awesome/fonts/fontawesome-webfont.*',
+        './node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.*'
     ])
     .pipe(gulp.dest('./Content/Fonts/'));
 });
@@ -72,7 +72,7 @@ gulp.task('watch', function () {
         './Styles/layout/*.scss',
         './Styles/reusable/*.scss',
         './Styles/snippets/*.scss',
-        './Scripts/custom.js'
+        './Scripts/src/custom.js'
     ], function () {
         runSequence('sass', 'prefix', 'minify-css', 'concat', 'compress');
     });

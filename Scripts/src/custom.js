@@ -1,5 +1,5 @@
 ﻿(function () {
-
+    
     //toast options
     toastr.options = {
         'showDuration': '1000',
@@ -17,7 +17,7 @@
                                                  .html('<i class="fa fa-spinner fa-spin"></i>');
         }
     });
-
+    
     //Two level dropdown menu
     $('ul.dropdown-menu > li.dropdown-submenu > a').on('click', function (event) {
         // Avoid following the href location when clicking
@@ -45,6 +45,7 @@
             toastr.error(messageElement.html());
         }
     });
+    
     //Last Script
     $.when($('#loader').fadeOut('slow')).done(function () {
         $('#layout-wrapper').css('opacity', '1');
