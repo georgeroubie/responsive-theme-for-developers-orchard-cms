@@ -101,6 +101,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="gulpfile.js" />
+    <Content Include="js\dist\main.js" />
     <Content Include="js\src\custom.js" />
     <Content Include="js\lib\jquery.cookiebar.js" />
     <Content Include="js\lib\Lib.js" />
@@ -221,9 +222,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\dist\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

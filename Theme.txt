@@ -1,7 +1,7 @@
 Name: Responsive Theme For Developers
 Author: George Roubie
-Website: http://www.coroflot.com/georgeroubie
+Website: https://gr.linkedin.com/in/georgeroubie
 Description: Responsive Theme optimized for Orchard 1.10.1
 Version: 1.1.2
-Tags: Theme, Responsive, Bootstrap, jQuery, JS, JavaScript, Less, Orchard, Toastr, FontAwesome, Developer
+Tags: Theme, Responsive, Bootstrap, jQuery, JS, JavaScript, Sass, Orchard, Toastr, FontAwesome, Developer, CSS, Gulp, npm
 Zones: Header, Navigation, BeforeMain, Featured, AsideFirst, Messages, BeforeContent, Content, AfterContent, AsideSecond, AfterMain, TripelFirst, TripelSecond, TripelThird, FooterQuadFirst, FooterQuadSecond, FooterQuadThird, FooterQuadFourth, Footer
