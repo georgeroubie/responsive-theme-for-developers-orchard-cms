@@ -30,7 +30,7 @@ var libPaths = {
     }
 };
 
-gulp.task('build', function () {
+gulp.task('lib', function () {
     // css
     for (var item in libPaths.src.css) {
         gulp.src(libPaths.src.css[item]).pipe(gulp.dest(`${basePaths.dest.rootStyle}/${item}`));

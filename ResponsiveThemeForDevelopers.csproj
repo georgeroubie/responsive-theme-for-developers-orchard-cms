@@ -74,6 +74,7 @@
     <Content Include=".gitignore" />
     <Content Include="css\main.css" />
     <Content Include="gulpfile.js" />
+    <Content Include="img\dist\Orchard-CMS.jpg" />
     <Content Include="img\favicons\android-chrome-144x144.png" />
     <Content Include="img\favicons\android-chrome-192x192.png" />
     <Content Include="img\favicons\android-chrome-256x256.png" />
@@ -130,11 +131,12 @@
     <Content Include="js\lib\Lib.js" />
     <Content Include="tasks\task.concat.js" />
     <Content Include="tasks\task.compress.js" />
-    <Content Include="tasks\task.build.js" />
+    <Content Include="tasks\task.lib.js" />
     <Content Include="tasks\task.favicon.js" />
     <Content Include="tasks\task.minify-css.js" />
     <Content Include="tasks\task.minify-img.js" />
     <Content Include="tasks\task.prefix.js" />
+    <Content Include="tasks\task.run.js" />
     <Content Include="tasks\task.sass.js" />
     <Content Include="tasks\task.watch.js" />
     <Content Include="Theme.png" />
@@ -246,9 +248,7 @@
   <ItemGroup>
     <Content Include="lib\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\dist\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="img\favicons\manifest.json" />
     <Content Include="img\favicons\manifest.webapp" />
