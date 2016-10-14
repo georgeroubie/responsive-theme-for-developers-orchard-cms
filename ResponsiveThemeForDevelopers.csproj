@@ -73,6 +73,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="css\main.css" />
+    <Content Include="img\dist\Orchard-CMS.jpg" />
     <Content Include="img\favicons\android-icon-144x144.png" />
     <Content Include="img\favicons\android-icon-192x192.png" />
     <Content Include="img\favicons\android-icon-36x36.png" />
@@ -100,6 +101,7 @@
     <Content Include="img\favicons\ms-icon-310x310.png" />
     <Content Include="img\favicons\ms-icon-70x70.png" />
     <Content Include="gulpfile.js" />
+    <Content Include="img\src\Orchard-CMS.jpg" />
     <Content Include="js\dist\main.js" />
     <Content Include="js\src\custom.js" />
     <Content Include="js\lib\jquery.cookiebar.js" />
@@ -108,6 +110,7 @@
     <Content Include="tasks\task.compress.js" />
     <Content Include="tasks\task.build.js" />
     <Content Include="tasks\task.minify-css.js" />
+    <Content Include="tasks\task.minify-img.js" />
     <Content Include="tasks\task.prefix.js" />
     <Content Include="tasks\task.sass.js" />
     <Content Include="tasks\task.watch.js" />
@@ -223,6 +226,7 @@
   <ItemGroup>
     <Content Include="lib\Web.config" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
