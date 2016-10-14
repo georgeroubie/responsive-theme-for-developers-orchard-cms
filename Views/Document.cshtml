@@ -2,27 +2,6 @@
 @using Orchard.Mvc.Html;
 @using Orchard.UI.Resources;
 @{
-    var theme = WorkContext.CurrentTheme;
-    var fontPath = "/img/favicons/";
-    //Favicons for multiple devices, created in http://www.favicon-generator.org
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-57x57.png")) }.AddAttribute("sizes", "57x57"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-60x60.png")) }.AddAttribute("sizes", "60x60"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath +"apple-icon-72x72.png")) }.AddAttribute("sizes", "72x72"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-76x76.png")) }.AddAttribute("sizes", "76x76"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-114x114.png")) }.AddAttribute("sizes", "114x114"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-120x120.png")) }.AddAttribute("sizes", "120x120"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-144x144.png")) }.AddAttribute("sizes", "144x144"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-152x152.png")) }.AddAttribute("sizes", "152x152"));
-    RegisterLink(new LinkEntry { Rel = "apple-touch-icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "apple-icon-180x180.png")) }.AddAttribute("sizes", "180x180"));
-    RegisterLink(new LinkEntry { Type = "image/png", Rel = "icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "android-icon-192x192.png")) }.AddAttribute("sizes", "192x192"));
-    RegisterLink(new LinkEntry { Type = "image/png", Rel = "icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "favicon-32x32.png")) }.AddAttribute("sizes", "32x32"));
-    RegisterLink(new LinkEntry { Type = "image/png", Rel = "icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "favicon-96x96.png")) }.AddAttribute("sizes", "96x96"));
-    RegisterLink(new LinkEntry { Type = "image/png", Rel = "icon", Href = Url.Content(Html.ThemePath(theme, fontPath + "favicon-16x16.png")) }.AddAttribute("sizes", "16x16"));
-    RegisterLink(new LinkEntry { Rel = "manifest", Href = Url.Content(Html.ThemePath(theme, fontPath + "manifest.json")) });
-    SetMeta(new MetaEntry { Name = "msapplication-TileColor", Content = "#ffffff" });
-    SetMeta(new MetaEntry { Name = "msapplication-TileImage", Content = Url.Content(Html.ThemePath(theme, fontPath + "ms-icon-144x144.png")) });
-    SetMeta(new MetaEntry { Name = "theme-color", Content = "#ffffff" });
-
     string title = Convert.ToString(Model.Title);
     string siteName = Convert.ToString(WorkContext.CurrentSite.SiteName);
     bool isRtl = WorkContext.CurrentCultureInfo().TextInfo.IsRightToLeft;
@@ -38,11 +17,11 @@
     @Display(Model.Head)
     <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script> 
     <script>window.isRTL = @(isRtl.ToString().ToLowerInvariant());</script>
+    @*Favicons Generated with gulp-favicons*@
+    @Html.Raw(File.ReadAllText(Server.MapPath(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/img/favicons/favicon.html")))))
 </head> 
 <body>
-    <div id="loader">
-        <i class="fa fa-refresh fa-spin"></i>
-    </div>
+    <div id="loader"><i class="fa fa-refresh fa-spin"></i></div>
     @* Layout (template) is in the Body zone @ the default position (nothing, zero, zilch) *@
     @Display(Model.Body)
     @Display(Model.Tail)

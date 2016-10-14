@@ -73,34 +73,56 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="css\main.css" />
-    <Content Include="img\dist\Orchard-CMS.jpg" />
-    <Content Include="img\favicons\android-icon-144x144.png" />
-    <Content Include="img\favicons\android-icon-192x192.png" />
-    <Content Include="img\favicons\android-icon-36x36.png" />
-    <Content Include="img\favicons\android-icon-48x48.png" />
-    <Content Include="img\favicons\android-icon-72x72.png" />
-    <Content Include="img\favicons\android-icon-96x96.png" />
-    <Content Include="img\favicons\apple-icon-114x114.png" />
-    <Content Include="img\favicons\apple-icon-120x120.png" />
-    <Content Include="img\favicons\apple-icon-144x144.png" />
-    <Content Include="img\favicons\apple-icon-152x152.png" />
-    <Content Include="img\favicons\apple-icon-180x180.png" />
-    <Content Include="img\favicons\apple-icon-57x57.png" />
-    <Content Include="img\favicons\apple-icon-60x60.png" />
-    <Content Include="img\favicons\apple-icon-72x72.png" />
-    <Content Include="img\favicons\apple-icon-76x76.png" />
-    <Content Include="img\favicons\apple-icon-precomposed.png" />
-    <Content Include="img\favicons\apple-icon.png" />
+    <Content Include="gulpfile.js" />
+    <Content Include="img\favicons\android-chrome-144x144.png" />
+    <Content Include="img\favicons\android-chrome-192x192.png" />
+    <Content Include="img\favicons\android-chrome-256x256.png" />
+    <Content Include="img\favicons\android-chrome-36x36.png" />
+    <Content Include="img\favicons\android-chrome-384x384.png" />
+    <Content Include="img\favicons\android-chrome-48x48.png" />
+    <Content Include="img\favicons\android-chrome-512x512.png" />
+    <Content Include="img\favicons\android-chrome-72x72.png" />
+    <Content Include="img\favicons\android-chrome-96x96.png" />
+    <Content Include="img\favicons\apple-touch-icon-114x114.png" />
+    <Content Include="img\favicons\apple-touch-icon-120x120.png" />
+    <Content Include="img\favicons\apple-touch-icon-144x144.png" />
+    <Content Include="img\favicons\apple-touch-icon-152x152.png" />
+    <Content Include="img\favicons\apple-touch-icon-167x167.png" />
+    <Content Include="img\favicons\apple-touch-icon-180x180.png" />
+    <Content Include="img\favicons\apple-touch-icon-57x57.png" />
+    <Content Include="img\favicons\apple-touch-icon-60x60.png" />
+    <Content Include="img\favicons\apple-touch-icon-72x72.png" />
+    <Content Include="img\favicons\apple-touch-icon-76x76.png" />
+    <Content Include="img\favicons\apple-touch-icon-precomposed.png" />
+    <Content Include="img\favicons\apple-touch-icon.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-1182x2208.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-1242x2148.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-1496x2048.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-1536x2008.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-320x460.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-640x1096.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-640x920.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-748x1024.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-750x1294.png" />
+    <Content Include="img\favicons\apple-touch-startup-image-768x1004.png" />
     <Content Include="img\favicons\browserconfig.xml" />
+    <Content Include="img\favicons\coast-228x228.png" />
     <Content Include="img\favicons\favicon-16x16.png" />
+    <Content Include="img\favicons\favicon-230x230.png" />
     <Content Include="img\favicons\favicon-32x32.png" />
     <Content Include="img\favicons\favicon-96x96.png" />
+    <Content Include="img\favicons\favicon.html" />
     <Content Include="img\favicons\favicon.ico" />
-    <Content Include="img\favicons\ms-icon-144x144.png" />
-    <Content Include="img\favicons\ms-icon-150x150.png" />
-    <Content Include="img\favicons\ms-icon-310x310.png" />
-    <Content Include="img\favicons\ms-icon-70x70.png" />
-    <Content Include="gulpfile.js" />
+    <Content Include="img\favicons\firefox_app_128x128.png" />
+    <Content Include="img\favicons\firefox_app_512x512.png" />
+    <Content Include="img\favicons\firefox_app_60x60.png" />
+    <Content Include="img\favicons\mstile-144x144.png" />
+    <Content Include="img\favicons\mstile-150x150.png" />
+    <Content Include="img\favicons\mstile-310x150.png" />
+    <Content Include="img\favicons\mstile-310x310.png" />
+    <Content Include="img\favicons\mstile-70x70.png" />
+    <Content Include="img\favicons\yandex-browser-50x50.png" />
+    <Content Include="img\logo.png" />
     <Content Include="img\src\Orchard-CMS.jpg" />
     <Content Include="js\dist\main.js" />
     <Content Include="js\src\custom.js" />
@@ -109,6 +131,7 @@
     <Content Include="tasks\task.concat.js" />
     <Content Include="tasks\task.compress.js" />
     <Content Include="tasks\task.build.js" />
+    <Content Include="tasks\task.favicon.js" />
     <Content Include="tasks\task.minify-css.js" />
     <Content Include="tasks\task.minify-img.js" />
     <Content Include="tasks\task.prefix.js" />
@@ -133,9 +156,6 @@
       <Name>Orchard.Core</Name>
       <Private>false</Private>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="img\favicons\manifest.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\BlogPost.Body.Summary.cshtml" />
@@ -226,7 +246,14 @@
   <ItemGroup>
     <Content Include="lib\Web.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="img\dist\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\favicons\manifest.json" />
+    <Content Include="img\favicons\manifest.webapp" />
+    <Content Include="img\favicons\yandex-browser-manifest.json" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

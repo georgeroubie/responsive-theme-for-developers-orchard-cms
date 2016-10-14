@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "Responsive Theme for Developers",
+  "description": "This a responsive theme for orchard cms, for developers",
+  "icons": {
+    "60": "/Themes/responsive-theme-for-developers-orchard-cms/img/favicons/firefox_app_60x60.png",
+    "128": "/Themes/responsive-theme-for-developers-orchard-cms/img/favicons/firefox_app_128x128.png",
+    "512": "/Themes/responsive-theme-for-developers-orchard-cms/img/favicons/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "George Roubie",
+    "url": "https://gr.linkedin.com/in/georgeroubie"
+  }
+}
