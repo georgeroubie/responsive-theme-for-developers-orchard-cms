@@ -9,6 +9,7 @@ var applicationName = 'Responsive Theme for Developers',
     faviconPath = '/Themes/responsive-theme-for-developers-orchard-cms/img/favicons/';
 
 gulp.task('favicon', function () {
+    // Logo Size: 1500x1500 pixels
     return gulp.src('./img/dist/logo.png').pipe(favicons({
         appName: applicationName,                                       // Your application's name. `string`
         appDescription: applicationDescription,                         // Your application's description. `string`
