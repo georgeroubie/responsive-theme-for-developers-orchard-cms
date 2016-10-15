@@ -1,4 +1,4 @@
-Name: Responsive Theme For Developers
+Name: ResponsiveThemeForDevelopers
 Author: George Roubie
 Website: https://gr.linkedin.com/in/georgeroubie
 Description: Responsive Theme optimized for Orchard 1.10.1
