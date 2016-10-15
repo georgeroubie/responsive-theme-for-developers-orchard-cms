@@ -23,7 +23,7 @@
 + Page loader with font-awesome icon
 + Disable button on form submit
 + Customized blogpost
-+ Gulp for compiling Sass, JavaScript compression, CSS Prefixing and auto-compiling.
++ Gulp for compiling Sass, JavaScript compression, CSS Prefixing, Image minification etc. 
 
 ## Orchard Gallery
 + [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)
