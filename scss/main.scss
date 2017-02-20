@@ -12,7 +12,7 @@ $icon-font-path: '../fonts/';
 @import '../lib/css/toastr/toastr';
 
 // Reusable
-@import 'reusable/_variables.scss';
+@import 'reusable/_variables';
 @import 'reusable/_functions';
 @import 'reusable/_colors';
 @import 'reusable/_fonts';
@@ -33,4 +33,4 @@ $icon-font-path: '../fonts/';
 @import 'components/_blog';
 
 // Snippets
-@import 'snippets/_share-btn.scss';
+@import 'snippets/_share-btn';
