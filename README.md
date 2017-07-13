@@ -4,6 +4,13 @@
 + `npm install`
 + `gulp run`
 
+## Development
++ `gulp watch`
+
+## Useful commands
++ Create favicon for multiple devices `gulp favicon`
++ Minify images `gulp minify-img`
+
 ## Features
 + Responsive zones with Bootstrap 3 Grid
 + Layout Part Grid System responsive with Bootstrap 3 Grid
@@ -27,6 +34,7 @@
 
 ## Orchard Gallery
 + [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)
++ Version [1.1.3](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.2)
 + Version [1.1.2](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.2)
 + Version [1.1.1](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.1)
 + Version [1.1.0](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.0)
