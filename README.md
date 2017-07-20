@@ -34,9 +34,3 @@
 
 ## Orchard Gallery
 + [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)
-+ Version [1.2](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.2)
-+ Version [1.1.3](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.3)
-+ Version [1.1.2](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.2)
-+ Version [1.1.1](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.1)
-+ Version [1.1.0](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.1.0)
-+ Version [1.0.0](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper/1.0.0)
