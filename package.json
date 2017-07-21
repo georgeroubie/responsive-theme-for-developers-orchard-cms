@@ -1,6 +1,6 @@
 {
   "name": "responsive-theme-for-developers",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "Responsive Orchard CMS theme for developers",
   "main": "Layout.cshtml",
   "devDependencies": {
