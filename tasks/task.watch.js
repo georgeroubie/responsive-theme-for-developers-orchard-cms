@@ -8,7 +8,7 @@ gulp.task('watch', function () {
         './scss/*/*.scss',
     ], function () {
         runSequence('sass', 'prefix', 'minify-css', function () {
-            console.log('SCSS Compiled');
+            console.log('SCSS compiled and compressed');
         });
     });
     gulp.watch([

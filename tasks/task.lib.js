@@ -25,8 +25,7 @@ var libPaths = {
         js: {
             bootstrap: `${basePaths.src.nodeModules}/bootstrap-sass/assets/javascripts/bootstrap.js`,
             toastr: `${basePaths.src.nodeModules}/toastr/toastr.js`,
-            jquery: `${basePaths.src.nodeModules}/jquery/dist/jquery.js`,
-            validation: `${basePaths.src.nodeModules}/jquery-validation/dist/jquery.validate.js`
+            jquery: `${basePaths.src.nodeModules}/jquery/dist/jquery.js`
         }
     }
 };

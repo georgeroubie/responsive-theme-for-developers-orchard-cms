@@ -4,7 +4,7 @@
 gulp.task('concatLib', function () {
     return gulp.src([
         './lib/js/jquery.js',
-        './lib/js/jquery.validate.js',
+        '../../Modules/Orchard.DynamicForms/Scripts/Lib.js',
         './lib/js/bootstrap.js',
         './lib/js/toastr.js'
     ])

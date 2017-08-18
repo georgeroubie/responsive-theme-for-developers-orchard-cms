@@ -5,6 +5,7 @@
   "main": "Document.cshtml",
   "scripts": {
     "start": "gulp watch",
+    "prebuild": "rimraf lib",
     "build": "gulp initialize"
   },
   "devDependencies": {
@@ -28,7 +29,6 @@
     "bootstrap-sass": "3.3.7",
     "font-awesome": "4.7.0",
     "jquery": "2.2.4",
-    "jquery-validation": "1.17.0",
     "toastr": "2.1.2"
   },
   "repository": {
