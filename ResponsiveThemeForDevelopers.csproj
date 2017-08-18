@@ -75,7 +75,6 @@
     <Content Include="css\main.css" />
     <Content Include="gulpfile.js" />
     <Content Include="img\dist\logo.png" />
-    <Content Include="img\dist\Orchard-CMS.jpg" />
     <Content Include="img\favicons\android-chrome-144x144.png" />
     <Content Include="img\favicons\android-chrome-192x192.png" />
     <Content Include="img\favicons\android-chrome-256x256.png" />
@@ -110,9 +109,7 @@
     <Content Include="img\favicons\browserconfig.xml" />
     <Content Include="img\favicons\coast-228x228.png" />
     <Content Include="img\favicons\favicon-16x16.png" />
-    <Content Include="img\favicons\favicon-230x230.png" />
     <Content Include="img\favicons\favicon-32x32.png" />
-    <Content Include="img\favicons\favicon-96x96.png" />
     <Content Include="img\favicons\favicon.html" />
     <Content Include="img\favicons\favicon.ico" />
     <Content Include="img\favicons\firefox_app_128x128.png" />
@@ -125,7 +122,6 @@
     <Content Include="img\favicons\mstile-70x70.png" />
     <Content Include="img\favicons\yandex-browser-50x50.png" />
     <Content Include="img\src\logo.png" />
-    <Content Include="img\src\Orchard-CMS.jpg" />
     <Content Include="js\dist\main.js" />
     <Content Include="js\src\custom.js" />
     <Content Include="js\lib\jquery.cookiebar.js" />
