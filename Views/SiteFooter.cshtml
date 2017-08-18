@@ -1,9 +1,24 @@
 ﻿@{ 
     var clock = WorkContext.Resolve<Orchard.Services.IClock>();
 }
-<div class="text-center site-footer">
-    Copyright &copy; @clock.UtcNow.Year - Powered by
-    <a href="http://www.coroflot.com/georgeroubie" target="_blank">
-        <strong>George Roubie</strong>
-    </a>
+<div class="site-footer">
+    <div class="row">
+        <div class="col-xs-9 col-sm-6">
+            Copyright &copy; @clock.UtcNow.Year - Powered by
+            <a href="https://www.linkedin.com/in/georgeroubie" target="_blank">
+                <strong>George Roubie</strong>
+            </a>
+        </div>
+        <div class="col-xs-3 col-sm-6 text-right">
+            @if (WorkContext.CurrentUser != null) {
+                <strong>
+                    @Html.ActionLink(T("Log Out").ToString(), "LogOff", new { Controller = "Account", Area = "Orchard.Users", ReturnUrl = Context.Request.RawUrl }, new { rel = "nofollow" })
+                </strong>
+            } else {
+                <strong>
+                    <a href="@Href("~/Users/Account/LogOn")">Log In</a>
+                </strong>
+            }
+        </div>
+    </div>
 </div>
