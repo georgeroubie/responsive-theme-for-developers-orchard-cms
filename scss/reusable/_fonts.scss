@@ -3,3 +3,6 @@
 .main-title {
     @include font-style(30px, $titleColor);
 }
+.main-subtitle {
+    @include font-style(24px, $titleColor);
+}

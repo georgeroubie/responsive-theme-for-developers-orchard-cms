@@ -8,10 +8,20 @@ ul.blog-posts {
 .blog-post {
     h2 {
         a {
-            @include font-style(25px, $titleColor);
+            @extend .main-subtitle;
         }
     }
 }
+
+// Comments
+#commenter,
+.comment-count {
+    @extend .main-subtitle;
+}
+.comment h4 {
+    font-size: 16px;
+}
+
 .comment-form {
     .who {
         ol {
@@ -37,6 +47,7 @@ ul.blog-posts {
     }
     button {
         @extend .btn;
+        @extend .btn-default;
     }
 }
 
@@ -45,4 +56,8 @@ ul.blog-posts {
     h1 {
         @extend .main-title;
     }
+}
+.blog-description {
+    @extend .alert;
+    @extend .alert-info;
 }
