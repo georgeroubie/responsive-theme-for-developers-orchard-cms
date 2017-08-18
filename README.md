@@ -2,10 +2,10 @@
 
 ## Installation
 + `npm install`
-+ `gulp run`
++ `npm run build`
 
 ## Development
-+ `gulp watch`
++ `npm start`
 
 ## Useful commands
 + Create favicon for multiple devices `gulp favicon`

@@ -158,33 +158,33 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BlogPost.Body.Summary.cshtml" />
-    <Content Include="Views\BlogPost.CreatedDate.cshtml" />
-    <Content Include="Views\BlogPost.Title.cshtml" />
-    <Content Include="Views\BlogPost.Title.Summary.cshtml" />
-    <Content Include="Views\Document.cshtml" />
-    <Content Include="Views\Dropdown.cshtml" />
-    <Content Include="Views\Elements\AuthenticatedUserSnippet.cshtml" />
-    <Content Include="Views\Elements\Checkbox.cshtml" />
-    <Content Include="Views\Elements\Column.cshtml" />
-    <Content Include="Views\Elements\Enumeration-CheckList.cshtml" />
-    <Content Include="Views\Elements\Enumeration-RadioList.cshtml" />
-    <Content Include="Views\Elements\Form.cshtml" />
-    <Content Include="Views\Elements\Grid.cshtml" />
-    <Content Include="Views\Elements\Image.cshtml" />
-    <Content Include="Views\Elements\ResponsiveIframeSnippet.cshtml" />
-    <Content Include="Views\Elements\ShareButtonSnippet.cshtml" />
-    <Content Include="Views\ErrorPage.cshtml" />
-    <Content Include="Views\Layout.cshtml" />
-    <Content Include="Views\LogOn.cshtml" />
-    <Content Include="Views\Menu-main-menu.cshtml" />
-    <Content Include="Views\MenuItem-main-menu.cshtml" />
-    <Content Include="Views\NotFound.cshtml" />
-    <Content Include="Views\Pager.cshtml" />
-    <Content Include="Views\Pager.CurrentPage.cshtml" />
-    <Content Include="Views\Pager.Gap.cshtml" />
-    <Content Include="Views\SiteFooter.cshtml" />
-    <Content Include="Views\Widget.Wrapper.cshtml" />
+    <Content Include="views\BlogPost.Body.Summary.cshtml" />
+    <Content Include="views\BlogPost.CreatedDate.cshtml" />
+    <Content Include="views\BlogPost.Title.cshtml" />
+    <Content Include="views\BlogPost.Title.Summary.cshtml" />
+    <Content Include="views\Document.cshtml" />
+    <Content Include="views\Dropdown.cshtml" />
+    <Content Include="views\Elements\AuthenticatedUserSnippet.cshtml" />
+    <Content Include="views\Elements\Checkbox.cshtml" />
+    <Content Include="views\Elements\Column.cshtml" />
+    <Content Include="views\Elements\Enumeration-CheckList.cshtml" />
+    <Content Include="views\Elements\Enumeration-RadioList.cshtml" />
+    <Content Include="views\Elements\Form.cshtml" />
+    <Content Include="views\Elements\Grid.cshtml" />
+    <Content Include="views\Elements\Image.cshtml" />
+    <Content Include="views\Elements\ResponsiveIframeSnippet.cshtml" />
+    <Content Include="views\Elements\ShareButtonSnippet.cshtml" />
+    <Content Include="views\ErrorPage.cshtml" />
+    <Content Include="views\Layout.cshtml" />
+    <Content Include="views\LogOn.cshtml" />
+    <Content Include="views\Menu-main-menu.cshtml" />
+    <Content Include="views\MenuItem-main-menu.cshtml" />
+    <Content Include="views\NotFound.cshtml" />
+    <Content Include="views\Pager.cshtml" />
+    <Content Include="views\Pager.CurrentPage.cshtml" />
+    <Content Include="views\Pager.Gap.cshtml" />
+    <Content Include="views\SiteFooter.cshtml" />
+    <Content Include="views\Widget.Wrapper.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Placement.info" />

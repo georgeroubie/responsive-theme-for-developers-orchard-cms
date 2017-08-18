@@ -1,8 +1,12 @@
 {
   "name": "responsive-theme-for-developers",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Responsive Orchard CMS theme for developers",
   "main": "Document.cshtml",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp initialize"
+  },
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-autoprefixer": "4.0.0",
@@ -26,9 +30,6 @@
     "jquery": "2.2.4",
     "jquery-validation": "1.17.0",
     "toastr": "2.1.2"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

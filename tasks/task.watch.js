@@ -7,12 +7,16 @@ gulp.task('watch', function () {
         './scss/*.scss',
         './scss/*/*.scss',
     ], function () {
-        runSequence('sass', 'prefix', 'minify-css');
+        runSequence('sass', 'prefix', 'minify-css', function () {
+            console.log('SCSS Compiled');
+        });
     });
     gulp.watch([
         './js/src/*.js',
          './js/src/*/*.js'
     ], function () {
-        runSequence('concatApp', 'compressApp');
+        runSequence('concatApp', 'compressApp', function () {
+            console.log('JS combined and compressed');
+        });
     });
 });
