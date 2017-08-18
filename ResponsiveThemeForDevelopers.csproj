@@ -248,6 +248,9 @@
     <Content Include="img\favicons\manifest.webapp" />
     <Content Include="img\favicons\yandex-browser-manifest.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="views\Register.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
