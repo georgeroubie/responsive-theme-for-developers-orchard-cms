@@ -7,5 +7,4 @@ bin/
 fonts/*
 !fonts/Web.config
 lib/*
-!lib/Web.config
 *.user
