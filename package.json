@@ -2,11 +2,11 @@
   "name": "responsive-theme-for-developers",
   "version": "1.2.0",
   "description": "Responsive Orchard CMS theme for developers",
-  "main": "Layout.cshtml",
+  "main": "Document.cshtml",
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-autoprefixer": "4.0.0",
-    "gulp-clean-css": "3.6.0",
+    "gulp-clean-css": "3.7.0",
     "gulp-concat": "2.6.1",
     "gulp-favicons": "2.2.7",
     "gulp-imagemin": "3.3.0",
@@ -17,13 +17,14 @@
     "gulp-util": "3.0.8",
     "gulp-watch": "4.3.11",
     "require-dir": "0.3.2",
-    "run-sequence": "2.0.0"
+    "run-sequence": "2.1.0"
   },
   "dependencies": {
     "bootstrap": "3.3.7",
     "bootstrap-sass": "3.3.7",
     "font-awesome": "4.7.0",
     "jquery": "2.2.4",
+    "jquery-validation": "1.17.0",
     "toastr": "2.1.2"
   },
   "scripts": {

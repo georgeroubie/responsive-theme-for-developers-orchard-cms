@@ -243,9 +243,6 @@
     <Content Include="tasks\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="lib\Web.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="img\favicons\manifest.json" />
     <Content Include="img\favicons\manifest.webapp" />
     <Content Include="img\favicons\yandex-browser-manifest.json" />
