@@ -21,10 +21,10 @@
     <Match DisplayType="Detail">
       <Place Parts_Title="Header:1;Wrapper=BlogPost_Title" />
       <Place Parts_Common_Metadata="Header:2;Wrapper=BlogPost_CreatedDate" />
+      <Place Parts_Tags_ShowTags="Header:3;Wrapper=BlogPost_Tags" />
       <Place Parts_Common_Body="Content:1" />
-      <Place Parts_Tags_ShowTags="Footer:1" />
-      <Place Parts_ListOfComments="Footer:2" />
-      <Place Parts_CommentForm="Footer:3" />
+      <Place Parts_ListOfComments="Footer:1" />
+      <Place Parts_CommentForm="Footer:2" />
     </Match>
     <Match DisplayType="Summary">
       <Place Parts_Title_Summary="Header:1;Wrapper=BlogPost_Title_Summary" />
