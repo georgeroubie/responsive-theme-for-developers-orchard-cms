@@ -6,5 +6,6 @@ obj/
 bin/
 fonts/*
 !fonts/Web.config
+!fonts/opensans.js
 lib/*
 *.user

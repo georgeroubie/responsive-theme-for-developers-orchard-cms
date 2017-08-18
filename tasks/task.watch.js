@@ -13,6 +13,6 @@ gulp.task('watch', function () {
         './js/src/*.js',
          './js/src/*/*.js'
     ], function () {
-        runSequence('concat', 'compress');
+        runSequence('concatApp', 'compressApp');
     });
 });

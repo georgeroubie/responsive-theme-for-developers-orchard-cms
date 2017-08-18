@@ -73,6 +73,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="css\main.css" />
+    <Content Include="fonts\opensans.js" />
     <Content Include="gulpfile.js" />
     <Content Include="img\dist\logo.png" />
     <Content Include="img\favicons\android-chrome-144x144.png" />
@@ -122,10 +123,10 @@
     <Content Include="img\favicons\mstile-70x70.png" />
     <Content Include="img\favicons\yandex-browser-50x50.png" />
     <Content Include="img\src\logo.png" />
-    <Content Include="js\dist\main.js" />
+    <Content Include="js\dist\application.js" />
+    <Content Include="js\dist\libraries.js" />
     <Content Include="js\src\custom.js" />
-    <Content Include="js\lib\jquery.cookiebar.js" />
-    <Content Include="js\lib\Lib.js" />
+    <Content Include="js\src\cookiebar.js" />
     <Content Include="tasks\task.concat.js" />
     <Content Include="tasks\task.compress.js" />
     <Content Include="tasks\task.lib.js" />

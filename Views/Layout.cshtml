@@ -8,23 +8,13 @@
     }
 }
 @{
-    //Every time you publish add one to this number, Trick!!!
-    var cachingVersion = 1;
-
-    using (Script.Head())
-    {
-        //Google Font Open Sans
-        <script type="text/javascript" async>WebFontConfig = { google: { families: ["Open+Sans:400,700,300:greek,latin"] } }, function () { var e = document.createElement("script"); e.src = "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js", e.type = "text/javascript", e.async = "true"; var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) }();</script>
-        //Main CSS
-        <link href="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/css/main.css?version=" + cachingVersion))" rel="stylesheet" type="text/css">
-    }
-    using (Script.Foot())
-    {
-        <script src="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/js/dist/main.js?version=" + cachingVersion))" type="text/javascript" async></script>
-    }
-
-    //If browser less than Internet Explorer 9
+    // Every time you publish add one to this number to prevent caching
+    int cachingVersion = 1;
+    Style.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/css/main.css?version=" + cachingVersion)));
+    Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/fonts/opensans.js"))).AtHead();
     Script.Require("Html5Shiv").UseCondition("lt IE 9").AtHead();
+    Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/js/dist/libraries.js?version=" + cachingVersion))).AtFoot();
+    Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/js/dist/application.js?version=" + cachingVersion))).AtFoot();
 
     /* Some useful shortcuts or settings
     ***************************************************************/
