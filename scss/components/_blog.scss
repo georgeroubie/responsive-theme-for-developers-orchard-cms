@@ -8,7 +8,7 @@ ul.blog-posts {
 .blog-post {
     h2 {
         a {
-            @include font-style(25px, $dark);
+            @include font-style(25px, $titleColor);
         }
     }
 }
@@ -40,7 +40,7 @@ ul.blog-posts {
     }
 }
 
-//Blog
+// Blog
 .blog {
     h1 {
         @extend .main-title;

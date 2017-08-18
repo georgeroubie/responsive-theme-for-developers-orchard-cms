@@ -1,17 +1,15 @@
 // Forms and form inputs styling
 
+// Error Handling
 span.field-validation-error {
-    color: #ff0000;
+    @include font-style(12px, $formValidationError);
 }
 div.validation-summary-errors {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    @extend .alert;
+    @extend .alert-danger;
 }
+
+// Make the dynamic form looks like a Bootstrap form
 .form-field-element-text-field {
     @extend .form-group;
     input {
@@ -41,6 +39,7 @@ div.validation-summary-errors {
     @extend .form-group;
     button {
         @extend .btn;
+        @extend .btn-default;
     }
 }
 .form-field-element-enumeration {

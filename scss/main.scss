@@ -1,4 +1,5 @@
 ﻿// Author: George Roubie - george.roubie@gmail.com
+// CSS Style Guide: https://github.com/georgeroubie/CSS-Style-Guide
 
 // Bootstrap
 $font-family-sans-serif: 'Open Sans', sans-serif;
@@ -13,7 +14,8 @@ $icon-font-path: '../fonts/';
 
 // Reusable
 @import 'reusable/_variables';
-@import 'reusable/_functions';
+@import 'reusable/_mixins';
+@import 'reusable/_classes';
 @import 'reusable/_colors';
 @import 'reusable/_fonts';
 @import 'reusable/_buttons';
@@ -31,6 +33,7 @@ $icon-font-path: '../fonts/';
 @import 'components/_menu';
 @import 'components/_pager';
 @import 'components/_blog';
+@import 'components/_search';
 
 // Snippets
 @import 'snippets/_share-btn';

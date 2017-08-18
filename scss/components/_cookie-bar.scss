@@ -1,8 +1,8 @@
 ﻿#cookie-bar {
-    background: #222222; 
+    background: #222; 
     height: auto; 
     line-height: 24px; 
-    color: #eeeeee; 
+    color: #eee; 
     text-align: center; 
     padding: 5px 0;
     &.fixed {
@@ -20,32 +20,32 @@
         padding: 0;
     }
     a {
-        color: #ffffff; 
+        color: #fff; 
         display: inline-block; 
         border-radius: 3px; 
         text-decoration: none; 
         padding: 0 6px; 
         margin-left: 8px;
         &:hover {
-            color: #000000;
+            color: #000;
         }
     }
     .cb-enable {
-        background: #000000;
+        background: #000;
         &:hover {
-            background: #ffffff;
+            background: #fff;
         }
     }
     .cb-disable {
-        background: #000000;
+        background: #000;
         &:hover {
-           background: #ffffff; 
+           background: #fff; 
         }
     }
     .cb-policy {
-        background: #000000;
+        background: #000;
         &:hover {
-            background: #ffffff;
+            background: #fff;
         }
     }
 }

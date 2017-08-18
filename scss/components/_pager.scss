@@ -1,17 +1,25 @@
-﻿.pager.pagination li > a, 
-.pager.pagination li > span {
-    border-radius: 0px;
-}
-.pagination > li > span.current-pager {
-    cursor: default;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7;
-    cursor: default;
-}
-.pagination > li > span.gap-pager:hover {
-    cursor: default;
-    &:hover {
-        background-color: #fff;
-    } 
+﻿.pager li {
+    display: inline-block;
+    a,
+    span {
+        border-radius: 5px !important;
+        padding: 10px 14px;
+        @include font-style(12px, $pagerColor, 700);
+        &:hover {
+            background: $pagerBackground;
+        }
+        &.current-pager {
+            cursor: default;
+            color: $pagerActiveColor;
+            background-color: $pagerActiveBackground;
+            border-color: $pagerActiveBackground;
+            &:hover {
+                background: $pagerActiveBackground;
+            }
+        }
+        &.gap-pager {
+            cursor: default;
+            pointer-events: none;
+        }
+    }
 }

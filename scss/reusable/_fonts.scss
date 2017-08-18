@@ -1,11 +1,5 @@
 // Text styling
-// Example
-// .main-title {
-//     color: $main-color; 
-//     padding: $main-padding;
-//     font-size: 25px;
-// }
 
 .main-title {
-    @include font-style(30px, $dark);
+    @include font-style(30px, $titleColor);
 }

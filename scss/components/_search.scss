@@ -1,0 +1,21 @@
+﻿.search-results {
+    li {
+        list-style-type: square;
+        article {
+            * {
+                display: none;
+            }
+            header {
+                display: block;
+                h1 {
+                    display: block;
+                    a {
+                        display: block;
+                        @include font-style(18px, $searchResultItemColor);
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

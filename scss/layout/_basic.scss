@@ -4,6 +4,13 @@
     margin: 0;
     padding: 0;
     -ms-overflow-style: scrollbar;
+    color: $textColor;
+    a {
+        color: $anchorColor;
+        &:hover {
+            color: $anchorColor;
+        }
+    }
 }
 
 // Message appears as a Toastr notification
