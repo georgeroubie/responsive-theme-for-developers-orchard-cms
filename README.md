@@ -1,5 +1,10 @@
 # Responsive Theme For Developers - Orchard CMS
 
+## Global Installation
+1. Install node js from [here](https://nodejs.org/en/download)
+2. Run `npm install npm@latest -g`
+3. Run `npm install rimraf -g`
+
 ## Installation
 + `npm install`
 + `npm run build`
@@ -30,7 +35,7 @@
 + Page loader with font-awesome icon
 + Disable button on form submit
 + Customized blogpost
-+ Gulp for compiling Scss, JavaScript compression, CSS Prefixing, Image minification etc. 
++ Gulp for compiling SCSS, JavaScript compression, CSS Prefixing, Image minification etc.
 
 ## Orchard Gallery
 + [Description](http://gallery.orchardproject.net/Packages/ResponsiveThemeForDeveloper)
