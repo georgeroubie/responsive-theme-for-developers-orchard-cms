@@ -30,7 +30,10 @@
 + Authenticated User - Layout Snippet
 + Orchard Notification converted to Toastr messages
 + Responsive Image element
-+ Responsive Logon Form
++ Image element can be an anchor if you place a URL in media caption
++ Responsive Login Form
++ Responsive Register Form
++ Login, logout buttons to footer
 + Accept Cookies message
 + Page loader with font-awesome icon
 + Disable button on form submit
