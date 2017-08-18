@@ -5,7 +5,7 @@
 2. Run `npm install npm@latest -g`
 3. Run `npm install rimraf -g`
 
-## Installation
+## Theme Installation
 + `npm install`
 + `npm run build`
 
