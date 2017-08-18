@@ -2,16 +2,26 @@
 @using Orchard.Layouts.Helpers
 @using Orchard.MediaLibrary.Models
 @{
+    var tagBuilder = TagBuilderExtensions.CreateElementTagBuilder(Model, "img");
     var imagePart = (ImagePart)Model.ImagePart;
     var mediaPart = imagePart != null ? imagePart.As<MediaPart>() : default(MediaPart);
-    var imageUrl = Url.Content(mediaPart.MediaUrl);
-    var imageAlt = mediaPart.AlternateText;
     var imageCaption = mediaPart.Caption;
+
+    if (mediaPart != null)
+    {
+        tagBuilder.Attributes["src"] = Url.Content(mediaPart.MediaUrl);
+        tagBuilder.Attributes["alt"] = mediaPart.AlternateText;
+    }
+    else
+    {
+        tagBuilder.Attributes["alt"] = T("Image not found").Text;
+    }
+    tagBuilder.AddCssClass("img-responsive center-image");
 }
 @if (String.IsNullOrEmpty(imageCaption)) {
-    <img src="@imageUrl" alt="@imageAlt" class="img-responsive center-image" />
+    @tagBuilder.ToHtmlString(TagRenderMode.SelfClosing)
 } else {
     <a href="@imageCaption" target="@( imageCaption.StartsWith("http") ? "_blank" : "_self" )">
-        <img src="@imageUrl" alt="@imageAlt" class="img-responsive center-image" />
+        @tagBuilder.ToHtmlString(TagRenderMode.SelfClosing)
     </a>
 }
