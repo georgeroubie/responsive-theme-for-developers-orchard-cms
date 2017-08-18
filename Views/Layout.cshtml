@@ -8,7 +8,7 @@
     }
 }
 @{
-    // Every time you publish add one to this number to prevent caching
+    // Every time you publish add one to this number to prevent browser caching
     int cachingVersion = 1;
     Style.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/css/main.css?version=" + cachingVersion)));
     Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/fonts/opensans.js"))).AtHead();
