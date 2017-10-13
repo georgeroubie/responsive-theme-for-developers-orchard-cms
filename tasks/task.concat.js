@@ -3,10 +3,10 @@
 
 gulp.task('concatLib', function () {
     return gulp.src([
-        './lib/js/jquery.js',
+        './node_modules/jquery/dist/jquery.js',
         '../../Modules/Orchard.DynamicForms/Scripts/Lib.js',
-        './lib/js/bootstrap.js',
-        './lib/js/toastr.js'
+        './node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+        './node_modules/toastr/toastr.js'
     ])
     .pipe(concat('libraries.js'))
     .pipe(gulp.dest('./js/dist/'));
