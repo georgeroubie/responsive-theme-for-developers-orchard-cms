@@ -1,12 +1,15 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
-node_modules/
 obj/
 bin/
+*.user
+js/dist/
+css/*
+!css/Web.config
+lib/*
 fonts/*
 !fonts/Web.config
 !fonts/opensans.js
-lib/*
-*.user
+node_modules/
 package-lock.json

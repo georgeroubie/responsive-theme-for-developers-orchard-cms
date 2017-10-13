@@ -163,7 +163,6 @@
     <Content Include="ThemeZonePreview.png" />
     <Content Include="Web.config" />
     <Content Include="js\Web.config" />
-    <Content Include="css\Web.config" />
     <Content Include="img\Web.config" />
   </ItemGroup>
   <ItemGroup>
