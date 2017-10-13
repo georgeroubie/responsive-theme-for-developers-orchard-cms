@@ -14,3 +14,4 @@ fonts/*
 !fonts/opensans.js
 node_modules/
 package-lock.json
+npm-debug.log

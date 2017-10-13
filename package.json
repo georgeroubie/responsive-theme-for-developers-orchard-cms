@@ -4,8 +4,7 @@
   "description": "Responsive Orchard CMS theme for developers",
   "main": "Document.cshtml",
   "scripts": {
-    "start": "gulp watch",
-    "build": "gulp initialize"
+    "start": "gulp initialize"
   },
   "devDependencies": {
     "gulp": "3.9.1",

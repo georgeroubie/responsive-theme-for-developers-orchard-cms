@@ -108,7 +108,7 @@
     <Content Include="tasks\task.minify-css.js" />
     <Content Include="tasks\task.minify-img.js" />
     <Content Include="tasks\task.prefix.js" />
-    <Content Include="tasks\task.run.js" />
+    <Content Include="tasks\task.initialize.js" />
     <Content Include="tasks\task.sass.js" />
     <Content Include="tasks\task.watch.js" />
     <Content Include="Theme.png" />
