@@ -150,7 +150,7 @@
     <Content Include="js\src\cookiebar.js" />
     <Content Include="tasks\task.concat.js" />
     <Content Include="tasks\task.compress.js" />
-    <Content Include="tasks\task.lib.js" />
+    <Content Include="tasks\task.fonts.js" />
     <Content Include="tasks\task.favicon.js" />
     <Content Include="tasks\task.minify-css.js" />
     <Content Include="tasks\task.minify-img.js" />
