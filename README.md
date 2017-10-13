@@ -32,13 +32,13 @@
 + Run `npm start` and you are ready.
 
 ## Minify images
-+ Add your images to img/src directory.
++ Add your images in the `img/src` directory.
 + Execute `gulp minify-img` .
-+ Use your images from the img/dist directory.  
++ Use your images from the `img/dist` directory.  
   Example: `<img src="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/img/dist/hello-world.png"))" />` .
 
 ## Create favicons for multiple devices
-+ Add your favicon in the img/src directory with the name logo.png (image size 1500x1500) .
++ Add your favicon in the `img/src` directory with the name logo.png (image size 1500x1500) .
 + Change the configuration in the `tasks/task.fonts.js` file.
 + Execute `gulp minify-img` .
 + Execute `gulp favicon` and you are ready.
