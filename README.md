@@ -34,7 +34,8 @@
 ## Minify images
 + Add your images to img/src directory.
 + Execute `gulp minify-img` .
-+ Use your images from the img/dist directory.  Example: `<img src="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/img/dist/hello-world.png"))" />` .
++ Use your images from the img/dist directory.
+  Example: `<img src="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/img/dist/hello-world.png"))" />` .
 
 ## Create favicons for multiple devices
 + Add your favicon in the img/src directory with the name logo.png (image size 1500x1500) .
