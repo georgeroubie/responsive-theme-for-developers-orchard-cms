@@ -9,3 +9,4 @@ fonts/*
 !fonts/opensans.js
 lib/*
 *.user
+package-lock.json
