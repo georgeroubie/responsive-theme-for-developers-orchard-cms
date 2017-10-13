@@ -31,12 +31,12 @@
 + Add the file path to `tasks/task.concat.js` , in the concatApp task, before `custom.js` directory.
 + Run `npm start` and you are ready.
 
-## Minify-images
+## Minify images
 + Add your images to img/src directory.
 + Execute `gulp minify-img` .
 + Use your images from the img/dist directory.  Example: `<img src="@Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/img/dist/hello-world.png"))" />` .
 
-## Create favicon for multiple devices
+## Create favicons for multiple devices
 + Add your favicon in the img/src directory with the name logo.png (image size 1500x1500) .
 + Change the configuration in the `tasks/task.fonts.js` file.
 + Execute `gulp minify-img` .
