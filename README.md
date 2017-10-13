@@ -28,7 +28,7 @@
 
 ## Create a new JavaScript file
 + Create the file to `js/src` directory
-+ Add the file path to `tasks/task.concat.js` , in the concatApp task, before `custom.js` directory.
++ Add the file path to `tasks/task.concat.js` , in the `concatApp` task, before `custom.js` directory.
 + Run `npm start` and you are ready.
 
 ## Minify images
