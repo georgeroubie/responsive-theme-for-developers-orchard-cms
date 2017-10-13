@@ -13,11 +13,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@Html.Title(title, siteName)</title> 
+    <title>@Html.Title(title, siteName)</title>
     @Display(Model.Head)
     <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script> 
     <script>window.isRTL = @(isRtl.ToString().ToLowerInvariant());</script>
-    @*Favicons Generated with gulp-favicons*@
+    @*Favicons Generated with `gulp favicons`*@
     @Html.Raw(File.ReadAllText(Server.MapPath(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/img/favicons/favicon.html")))))
 </head> 
 <body>

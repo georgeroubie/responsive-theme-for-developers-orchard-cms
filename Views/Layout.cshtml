@@ -10,11 +10,8 @@
 @{
     // Every time you publish add one to this number to prevent browser caching
     int cachingVersion = 1;
-
-    Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/fonts/opensans.js"))).AtHead();
+    Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/fonts/opensans.js"))).AtHead().SetAttribute("async", null);
     Style.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/css/main.css?version=" + cachingVersion)));
-
-    Script.Require("Html5Shiv").UseCondition("lt IE 9").AtHead();
     Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/js/dist/libraries.js?version=" + cachingVersion))).AtFoot();
     Script.Include(Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/js/dist/application.js?version=" + cachingVersion))).AtFoot();
 
