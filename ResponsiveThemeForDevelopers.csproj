@@ -114,6 +114,8 @@
     <Content Include="Theme.png" />
     <Content Include="Theme.txt" />
     <Content Include="ThemeZonePreview.png" />
+    <Content Include="Views\Elements\AuthenticatedUserSnippet.txt" />
+    <Content Include="Views\Elements\iFrameSnippet.txt" />
     <Content Include="Web.config" />
     <Content Include="js\Web.config" />
     <Content Include="img\Web.config" />
@@ -137,7 +139,6 @@
     <Content Include="Views\BlogPost.Title.Summary.cshtml" />
     <Content Include="Views\Document.cshtml" />
     <Content Include="Views\Dropdown.cshtml" />
-    <Content Include="Views\Elements\AuthenticatedUserSnippet.cshtml" />
     <Content Include="Views\Elements\Checkbox.cshtml" />
     <Content Include="Views\Elements\Column.cshtml" />
     <Content Include="Views\Elements\Enumeration-CheckList.cshtml" />
@@ -145,7 +146,6 @@
     <Content Include="Views\Elements\Form.cshtml" />
     <Content Include="Views\Elements\Grid.cshtml" />
     <Content Include="Views\Elements\Image.cshtml" />
-    <Content Include="Views\Elements\ResponsiveIframeSnippet.cshtml" />
     <Content Include="Views\Elements\ShareButtonSnippet.cshtml" />
     <Content Include="Views\ErrorPage.cshtml" />
     <Content Include="Views\Layout.cshtml" />
@@ -234,6 +234,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="scss\components\_tags.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Elements\iFrameSnippet.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Elements\AuthenticatedUserSnippet.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,13 @@
+DisplayName: iFrame 
+ToolboxIcon: \uf1c9
+Description: iFrame Snippet
+Category: Snippets
+Fields:
+  - Name: URL
+    DisplayName: URL
+    Description: Enter here the iFrame URL of your provider.
+    Type: Text
+  - Name: Ratio
+    DisplayName: Ratio
+    Description: Enter the ratio of iFrame 16by9 or 4by3. Leave empty for default.
+    Type: Text

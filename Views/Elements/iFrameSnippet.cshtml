@@ -1,0 +1,12 @@
+@{ 
+    string url = Model.URL;
+    string ratio = Model.Ratio;
+    if(ratio != "16by9" && ratio != "4by3") {
+        ratio = "4by3";
+    }
+}
+@if (!String.IsNullOrEmpty(url)) {
+    <div class="embed-responsive embed-responsive-@ratio">
+        <iframe class="embed-responsive-item" src="@url" allowfullscreen></iframe>
+    </div>
+}

@@ -1,0 +1,9 @@
+DisplayName: Authenticated User 
+ToolboxIcon: \uf007
+Description: Authenticated User Snippet
+Category: Snippets
+Fields:
+  - Name: URL
+    DisplayName: URL
+    Description: If the user is not authenticated will be redirected to this url. Leave empty for default.
+    Type: Text
