@@ -39,7 +39,7 @@
 
 ## Create favicons for multiple devices
 + Add your favicon in the `img/src` directory with the name logo.png (image size 1500x1500) .
-+ Change the configuration in the `tasks/task.fonts.js` file.
++ Change the configuration in the `tasks/task.favicon.js` file.
 + Execute `gulp minify-img` .
 + Execute `gulp favicon` and you are ready.
 
